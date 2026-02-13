@@ -1,0 +1,53 @@
+/* Scoped admin polish for Event Countdown screens only. */
+
+body.settings_page_event-countdown-manager .wrap h1,
+body.post-type-event_countdown .wrap h1 {
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+body.settings_page_event-countdown-manager .form-table,
+body.post-type-event_countdown .form-table {
+  max-width: 920px;
+}
+
+body.settings_page_event-countdown-manager .form-table th,
+body.post-type-event_countdown .form-table th {
+  font-weight: 600;
+}
+
+body.settings_page_event-countdown-manager .button,
+body.post-type-event_countdown .button {
+  border-radius: 4px;
+}
+
+/* Material-inspired surface treatment while keeping WP defaults. */
+body.settings_page_event-countdown-manager .wrap form {
+  background: #fff;
+  border: 1px solid #dcdcde;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+/* Prevent overflow when meta box is moved to a narrow sidebar. */
+#ecm_event_schedule input,
+#ecm_event_schedule select,
+#ecm_event_schedule textarea {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+#ecm_event_schedule .regular-text,
+#ecm_event_schedule input[type="url"],
+#ecm_event_schedule input[type="text"],
+#ecm_event_schedule input[type="date"],
+#ecm_event_schedule input[type="time"],
+#ecm_event_schedule select {
+  width: 100%;
+}
+
+#ecm_event_schedule p {
+  margin: 0 0 12px;
+}
